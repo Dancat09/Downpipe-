@@ -44,7 +44,7 @@ nav a:hover {
   display: inline-block;
   margin-top: 20px;
   padding: 10px 20px;
-  background: orange;
+  background: rgb(145, 104, 237);
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -84,7 +84,7 @@ section {
 
 /* CTA */
 .cta {
-  background: orange;
+  background: rgb(9, 21, 64);
   color: white;
 }
 
@@ -112,7 +112,7 @@ button {
 }
 
 button:hover {
-  background: orange;
+  background: rgb(145, 104, 237);
 }
 
 /* Footer */
