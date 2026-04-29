@@ -79,8 +79,8 @@ section {
 
 /* Dark section */
 .dark {
-  background: #333;
-  color: white;
+  background: #111;
+  color: rgb(183, 195, 237);
 }
 
 /* CTA */
