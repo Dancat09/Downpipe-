@@ -128,6 +128,12 @@ footer {
   text-align: center;
 }
 
+a,
+a:visited {
+  /* color: rgb(0, 0, 0);*/
+  text-decoration: none;
+}
+
 /* Mobil */
 @media (max-width: 600px) {
   .container {
