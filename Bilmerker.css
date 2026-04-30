@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: rgb(183, 195, 237);
+}
+
+/* Header */
+header {
+  background: #111;
+  color: white;
+  padding: 15px 30px;
+}
+
+/* Container */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Hero */
+.hero {
+  background: url("bilder/gif.gif") center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgb(145, 104, 237);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: rgb(145, 104, 237);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.contact-info {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.merc {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+/* CTA */
+.cta {
+  background: rgb(9, 21, 64);
+  color: white;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background: #111;
+  color: white;
+  padding: 15px;
+}
