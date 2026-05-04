@@ -88,6 +88,23 @@ nav a:hover {
   border: 6px solid #000;
 }
 
+.merc-section {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 30px;
+}
+
+.Boks {
+  background-color: #f0f0f0;
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  height: 470px;
+  margin-bottom: -30px;
+}
+
 /* CTA */
 .cta {
   background: rgb(9, 21, 64);
@@ -100,4 +117,15 @@ footer {
   background: #111;
   color: white;
   padding: 15px;
+}
+
+/* Mobil */
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .hero h2 {
+    font-size: 28px;
+  }
 }
