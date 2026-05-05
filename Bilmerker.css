@@ -19,7 +19,7 @@ header {
   align-items: center;
 }
 
-/* Hero */
+/*Hoved side bilder + Info text*/
 .hero {
   background: url("bilder/gif.gif") center/cover;
   color: white;
@@ -27,6 +27,7 @@ header {
   padding: 100px 20px;
 }
 
+/*Knapper*/
 nav a {
   color: white;
   margin-left: 15px;
@@ -47,11 +48,13 @@ nav a:hover {
   border-radius: 5px;
 }
 
+/*Info tekster nederst*/
 .contact-info {
   margin-top: 20px;
   text-align: center;
 }
 
+/*Bilder av bilder*/
 .merc {
   position: relative;
   width: 500px;
@@ -89,6 +92,7 @@ nav a:hover {
   border: 6px solid #000;
 }
 
+/*Mercedes sekjon*/
 .merc-section {
   display: flex;
   align-items: center;
@@ -96,6 +100,7 @@ nav a:hover {
   padding: 30px;
 }
 
+/*Video biler*/
 .merc-video {
   width: 100%;
   max-width: 288px;
@@ -132,6 +137,7 @@ nav a:hover {
   margin-bottom: -30px;
 }
 
+/*Info boks Biler*/
 .Boks {
   background-color: #f0f0f0;
   border: 2px solid #333;
@@ -140,6 +146,30 @@ nav a:hover {
   max-width: 300px;
   height: 470px;
   margin-bottom: -30px;
+}
+
+/*Bil text Høyre side*/
+.mer {
+  margin-left: 50px;
+  color: #000;
+  margin-bottom: -20px;
+}
+
+.BM {
+  margin-left: 50px;
+  color: #000;
+  margin-right: 65px;
+}
+
+.BE {
+  margin-left: 16px;
+  color: #000;
+}
+
+.PO {
+  margin-left: 38px;
+  color: #000;
+  margin-bottom: -16px;
 }
 
 /* CTA */

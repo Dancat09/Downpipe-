@@ -29,7 +29,7 @@ nav a:hover {
   color: rgb(145, 104, 237);
 }
 
-/* Hero */
+/*Hovedside + info text*/
 .hero {
   background: url("bilder/gif.gif") center/cover;
   color: white;
@@ -41,6 +41,7 @@ nav a:hover {
   font-size: 40px;
 }
 
+/*Knapper*/
 .btn {
   display: inline-block;
   margin-top: 20px;
@@ -57,7 +58,7 @@ section {
   text-align: center;
 }
 
-/* Cards */
+/*Kort med Bilder - Knapper */
 .cards {
   display: flex;
   gap: 20px;
@@ -98,6 +99,7 @@ form {
   gap: 10px;
 }
 
+/*Knapper*/
 input,
 textarea {
   padding: 10px;
